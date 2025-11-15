@@ -34,7 +34,7 @@ If you find this open source release useful, please reference in your paper:
 Dreamer learns a world model from past experience that can predict into the
 future. It then learns action and value models in its compact latent space. The
 value model optimizes Bellman consistency of imagined trajectories. The action
-model maximizes value estimates by propgating their analytic gradients back
+model maximizes value estimates by propagating their analytic gradients back
 through imagined trajectories. When interacting with the environment, it simply
 executes the action model.
 
